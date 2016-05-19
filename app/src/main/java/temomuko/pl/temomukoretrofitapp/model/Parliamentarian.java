@@ -6,9 +6,9 @@ import com.google.gson.annotations.SerializedName;
  * Created by Rafał Naniewicz on 28.04.2016.
  */
 public class Parliamentarian {
-    @SerializedName("url") String mUrl;
-    @SerializedName("mp_url") String mProfileUrl;
-    @SerializedName("data") ParliamentarianData mParliamentarianData;
+    @SerializedName("url") private String mUrl;
+    @SerializedName("mp_url") private String mProfileUrl;
+    @SerializedName("data") private ParliamentarianData mParliamentarianData;
 
     public ParliamentarianData getParliamentarianData() {
         return mParliamentarianData;

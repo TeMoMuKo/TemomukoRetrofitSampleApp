@@ -8,8 +8,8 @@ import java.util.List;
  * Created by Rafał Naniewicz on 28.04.2016.
  */
 public class ParliamentariansApiResponse {
-    @SerializedName("Dataobject") List<Parliamentarian> mMembersOfParliament;
-    @SerializedName("Links") ParliamentariansApiLinks mParliamentariansApiLinks;
+    @SerializedName("Dataobject") private List<Parliamentarian> mMembersOfParliament;
+    @SerializedName("Links") private ParliamentariansApiLinks mParliamentariansApiLinks;
 
     public List<Parliamentarian> getMembersOfParliament() {
         return mMembersOfParliament;
