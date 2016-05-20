@@ -1,2 +1,2 @@
 # TemomukoRetrofitApp
-Sample project using Retrofit by Square.
+Sample project using Retrofit and standard callbacks for asynchronous api calls.
